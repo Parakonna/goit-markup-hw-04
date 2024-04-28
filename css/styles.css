@@ -11,6 +11,7 @@ img {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
 }
@@ -321,7 +322,9 @@ margin-bottom: 8px;
  }
 
 .social-list-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
         line-height: 0;
     position: relative;
     width: 100%;
@@ -331,8 +334,7 @@ margin-bottom: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
     background-color: #404bbf;
 }
 
