@@ -66,12 +66,12 @@ text-transform: capitalize;
     border-bottom: 1px solid #e7e9fc;
         width: 1440px;
         height: 72px;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
  }
 
 .page-headr{
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
    border-bottom: 1px solid #e7e9fc;
+background: #fff;
 }
 
  .page-nav {
@@ -337,7 +337,7 @@ margin-bottom: 8px;
 }
 
 .social-list-icon{
-    color: #f4f4fd;
+    fill: #f4f4fd;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -479,7 +479,9 @@ height: auto;
 }
 
 .social-list-link-footer {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 0;
     position: relative;
     width: 100%;
@@ -490,7 +492,7 @@ height: auto;
 }
 
 .social-list-icon {
-color: #f4f4fd;
+    fill: #f4f4fd;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -499,5 +501,5 @@ color: #f4f4fd;
 
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
