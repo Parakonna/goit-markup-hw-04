@@ -206,6 +206,11 @@ background-color: #404bbf;
 }
 
 /* ========= BENEFITS STYLES ========= */
+
+.benefits-container {
+    box-sizing: content-box;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -262,6 +267,11 @@ background-color: #404bbf;
 }
 
 /* ========= TEAM STYLES ========= */
+
+.team-container {
+    box-sizing: content-box;
+}
+
 .title-team {
     margin-bottom: 72px;
 }
